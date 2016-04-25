@@ -1,0 +1,21 @@
+{
+  "manifest_version": 2,
+
+  "name": "twitter toolkit ",
+  "description": "This extension shows a Google Image search result for the current page",
+  "version": "1.0",
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "icons" :{
+      "64": "icon.png",
+      "32": "icon.png",
+      "128": "icon.png"
+    },
+  "permissions":[
+      "contextMenus"
+  ]
+
+}
+ 
+ //history, bookmark manager , newtab
